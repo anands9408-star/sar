@@ -34,3 +34,10 @@ st.table({
     "Probability (%)": [70, 20, 10],
     "Assigned Resource": ["Drone Squad A", "Helicopter 01", "Ground Team"]
 })
+
+# Simple Glide Physics for S31
+glide_ratio = 15  # Standard for many aircraft
+search_radius = (altitude / 3280.84) * glide_ratio  # Converts feet to km
+
+st.write(f"### Predicted Search Radius: {search_radius:.2f} km")
+
