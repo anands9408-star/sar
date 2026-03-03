@@ -40,4 +40,8 @@ glide_ratio = 15  # Standard for many aircraft
 search_radius = (altitude / 3280.84) * glide_ratio  # Converts feet to km
 
 st.write(f"### Predicted Search Radius: {search_radius:.2f} km")
+streamlit
+folium
+streamlit-folium
+
 
